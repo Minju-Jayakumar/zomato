@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="images/Zomato-Logo-10241.webp" type="image/gif">
+	<title>Zomato</title>
+	<style>
+		.cities-ul ul {
+			line-height: 2em;
+		}
+
+		.mt-negative {
+			margin-top: -88px !important;
+		}
+
+		.mt-negative-em {
+			margin-top: -6em;
+		}
+
+		.card-bottom {
+			position: absolute;
+			background-color: white;
+			height: 50px;
+			width: 100%;
+			margin-top: 150px;
+		}
+
+
+		.one {
+			padding: 8px;
+			border: 1px solid lightgray;
+			border-radius: 8px;
+			height: 60px;
+			width: 350px;
+		}
+
+		#get-zomato-app {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			background-color: rgba(234, 241, 130, 0.1);
+		}
+
+		.email-input {
+			width: 250px;
+			height: 40px;
+			padding-left: 10px;
+			border: 1px solid #ccc;
+			outline: none;
+			border-radius: 10px;
+			background-color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div style="background-image: url('images/section1.webp')" class="row">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container-fluid">
+					<a class="navbar-brand text-white" href="#">Get the app</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#">Add Restaurant</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#">Login</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white" href="#">Sign Up</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+
+			<img style="width:20%" class="mx-auto d-block mt-5 mb-5" src="images/zomato-white.webp">
+
+			<h3 class="text-center text-white fs-1">Discover the best food & drinks in Kochi</h3>
+
+			<div class="row d-flex justify-content-center mt-3 mb-5">
+				<div class="col-md-8 mb-5">
+					<div class="text-center input-group mb-3">
+
+						<div class="input-group-lg input-group-prepend bg-white">
+							<i class="fa fa-map-marker p-3 text-danger"></i>
+						</div>
+						<div class="input-group-lg input-group-prepend bg-white">
+							<select class="input-group-text">
+								<i class="fa fa-map-marker"></i>
+								<option>
+									Echamukku, Thrikkakara
+								</option>
+							</select>
+						</div>
+						<div class="input-group-lg input-group-prepend bg-white">
+							<i class="fa fa-search p-3"></i>
+						</div>
+						<input type="text" class="input-group-lg form-control"
+							placeholder="Search for restaurant, cuisine or a dishs" aria-label="Username"
+							aria-describedby="basic-addon1">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container mt-5 ps-2 pe-2">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 col-12 col-md-4 col-lg-4 col-xl-4">
+					<div class="card">
+						<img src="images/order-food-online.webp" class="card-img-top" alt="...">
+						<div class="mt-negative card-body bg-white text-black">
+							<h5 class="card-title">Order Food Oline</h5>
+							<p class="card-text">Stay home and order to your doorstep
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-xs-12 col-12 col-md-4 col-lg-4 col-xl-4">
+					<div class="card">
+						<img src="images/go-out-for-a-meal.webp" class="card-img-top" alt="...">
+						<div class="mt-negative card-body bg-white text-black">
+							<h5 class="card-title">Go out for a meal</h5>
+							<p class="card-text">Some quick example text to build.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 col-xs-12 col-12 col-md-4 col-lg-4 col-xl-4">
+					<div class="card">
+						<img src="images/zomato-pro.webp" class="card-img-top" alt="...">
+						<div class="mt-negative card-body bg-white text-black">
+							<h5 class="card-title">Zomato Pro</h5>
+							<p class="card-text">Some quick example text to.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container mt-5">
+			<h1 class="mt-5">Collections</h1>
+			<div class="row" style="font: size 1.21em;">
+
+				<div class="col-8 col-sm-8 col-xs-8 col-md-8 col-lg-8 col-xl-8">
+					Explore curated lists of top restaurants, cafes, pubs, and bars in Kochi, based on trends
+				</div>
+
+				<div class="col-4 col-sm-4 col-xs-4 col-md-4 col-lg-4 col-xl-4 text-danger">
+					<p class="text-end">
+						All collections in Kochi
+						<i class="ms-2 fa fa-caret-right"></i>
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-sm-12 col-xs-12 col-md-3 col-lg-3 col-xl-3">
+					<div class="card">
+						<img src="images/coll1.webp" class="card-img-top" alt="...">
+						<div class="card-body text-white mt-negative-em">
+							<h5 class="card-title">Veggie Friendly</h5>
+							<p class="card-text">5 Places <i class="fa fa-caret-right"></i></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-xs-12 col-md-3 col-lg-3 col-xl-3">
+					<div class="card">
+						<img src="images/coll2.webp" class="card-img-top" alt="...">
+						<div class="card-body text-white mt-negative-em">
+							<h5 class="card-title">Trending this week</h5>
+							<p class="card-text">30 Places <i class="fa fa-caret-right"></i></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-xs-12 col-md-3 col-lg-3 col-xl-3">
+					<div class="card">
+						<img src="images/coll3.webp" class="card-img-top" alt="...">
+						<div class="card-body text-white mt-negative-em">
+							<h5 class="card-title">Must Visit Restaurants in</h5>
+							<p class="card-text">11 Places <i class="fa fa-caret-right"></i></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-sm-12 col-xs-12 col-md-3 col-lg-3 col-xl-3">
+					<div class="card">
+						<img src="images/coll4.webp" class="card-img-top" alt="...">
+						<div class="card-body text-white mt-negative-em">
+							<h5 class="card-title">Great Cafes</h5>
+							<p class="card-text">12 Places <i class="fa fa-caret-right"></i></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container mt-5">
+			<div class="row">
+				<h1 class="text-center mt-3">Popular localities in and around Kochi</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Kakkanad (435 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 p-3 text-black">
+					<div class="one">Edappally (324 places)<i class="fa fa-angle-down float-right"></i></div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="get-zomato-app">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 d-none d-md-flex">
+					<img src="https://b.zmtcdn.com/web/home/dining/2c17b1c302656ee6d434bff811442f8c1588271130.png"
+						class="ml-auto" width="250px" height="400px" />
+				</div>
+				<div class="col-md-6">
+					<p class="display-4 font-weight-bold mt-4">Get the Zomato App</p>
+					<p>
+						We will send you a link, open it on your phone to download the app
+					</p>
+					<div class="d-flex">
+						<input type="text" placeholder="Email" class="email-input" />
+						<button class="btn btn-danger ml-2">Get App</button>
+					</div>
+					<p class="mt-3 text-muted">Download app from</p>
+					<div class="d-flex">
+						<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.tildacdn.com%2Ftild3435-3430-4133-a362-346661346266%2FGoogle-Play-and-Appl.png&f=1&nofb=1"
+							width="350px" height="60px" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section style="background-color: rgb(252 252 252);">
+		<div class="container">
+			<h1>
+				Explore other options for you here
+			</h1>
+			<br>
+			<h3>
+				Popular cuisines near me
+			</h3><br>
+
+			<p class="text-justify">
+				Arabian food near me.Bakery food near me.Beverages food near me.Biryani food near me.Burger food near
+				me.Cafe
+				food near me.Chinese food near me.Continental food near me.Desserts food near me.Ice Cream food near
+				me.Juices
+				food near me.Kerala food near me.Lebanese food near me.North Indian food near me.Pizza food near
+				me.Sandwich
+				food near me.Seafood food near me.Shake food near me.South Indian food near me.Street food near me
+			</p>
+			<br>
+			<h3>
+				Popular restaurant types near me
+			</h3><br>
+			<p>
+				Bakeries near me.Bars near me.Beverage Shops near me.Cafés near me.Casual Dining near me.Confectioneries
+				near
+				me.Dessert Parlors near me.Dhabas near me.Fine Dining near me.Food Courts near me.Food Trucks near
+				me.Kiosks
+				near me.Lounges near
+				me.Meat Shops near me near me.Quick Bites near me.Sweet Shops near me
+
+			</p>
+			<br>
+			<h3>
+				Top Restaurant Chains
+			</h3><br>
+
+			<div class="row">
+				<div class="col-md-2">
+					Burger King
+				</div>
+				<div class="col-md-2">
+					KFC
+				</div>
+				<div class="col-md-2">
+					McDonald's
+				</div>
+				<div class="col-md-2">
+					<p class="float-end">
+						Pizza Hut
+					</p>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-2">
+					<p class="float-end">
+						WOW! Momo
+					</p>
+				</div>
+
+			</div>
+
+			<h3>
+				Cities we deliver to
+			</h3>
+
+			<div class="row cities-ul">
+
+				<div class="col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+					<ul class="list-unstyled">
+
+						<li> Delhi NCR </li>
+						<li> Kolkata </li>
+						<li> Mumbai </li>
+						<li> Bengaluru </li>
+						<li> Pune </li>
+						<li> Hyderabad </li>
+						<li> Chennai </li>
+						<li> Lucknow </li>
+						<li> Kochi </li>
+						<li> Jaipur </li>
+						<li> Ahmedabad </li>
+						<li> Chandigarh </li>
+						<li> Goa </li>
+					</ul>
+				</div>
+
+
+				<div class="col-3 col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+					<ul class="list-unstyled">
+						<li> Indore </li>
+						<li> Nashik </li>
+						<li> Ooty </li>
+						<li> Shimla </li>
+						<li> Ludhiana </li>
+						<li> Guwahati </li>
+						<li> Amritsar </li>
+						<li> Kanpur </li>
+						<li> Allahabad </li>
+						<li> Aurangabad </li>
+						<li> Bhopal </li>
+						<li> Ranchi </li>
+						<li> Visakhapatnam </li>
+					</ul>
+				</div>
+
+				<div class="col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+					<ul class="list-unstyled">
+						<li> Bhubaneswar </li>
+						<li> Coimbatore </li>
+						<li> Mangalore </li>
+						<li> Vadodara </li>
+						<li> Nagpur </li>
+						<li> Agra </li>
+						<li> Dehradun </li>
+						<li> Mysore </li>
+						<li> Puducherry </li>
+						<li> Surat </li>
+						<li> Varanasi </li>
+						<li> Patna </li>
+						<li> Udaipur </li>
+					</ul>
+				</div>
+
+				<div class="col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+					<ul class="list-unstyled">
+						<li> Cuttack </li>
+						<li> Trivandrum </li>
+						<li> Haridwar </li>
+						<li> Leh </li>
+						<li> Pushkar </li>
+						<li> Rajkot </li>
+						<li> Madurai </li>
+						<li> Kozhikode </li>
+						<li> Alappuzha </li>
+						<li> Thrissur </li>
+						<li> Manipal </li>
+						<li> Vijayawada </li>
+						<li> Jodhpur </li>
+
+					</ul>
+
+				</div>
+
+				<div class="col-2 col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+					<ul class="list-unstyled">
+						<li> Kota </li>
+						<li> Ajmer </li>
+						<li> Mussoorie</li>
+						<li> Rishikesh</li>
+						<li> Jalandhar</li>
+						<li> Jammu</li>
+						<li> Manali</li>
+						<li> Dharamshala</li>
+						<li> Raipur</li>
+						<li> Gorakhpur</li>
+						<li> Palakkad</li>
+						<li>
+							<u>
+								See more
+							</u>
+						</li>
+
+					</ul>
+				</div>
+
+
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+	<footer class="mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-8 col-sm-8 col-xs-8 col-md-8">
+					<img src="images/footer_logo.webp">
+				</div>
+
+				<div class="col-2 col-sm-2 col-xs-2 col-md-2 float-end">
+					<select class="form-select form-select-lg mb-3">
+						<option>India</option>
+					</select>
+				</div>
+
+				<div class="col-2 col-sm-2 col-xs-2 col-md-2 float-end">
+					<select class="form-select form-select-lg mb-3">
+						<option><i></i>English</option>
+					</select>
+				</div>
+
+			</div>
+
+
+			<div class="row mt-3">
+
+				<div class="col-2 col-sm-2 col-xs-2 col-md-2 col-lg-2 cities-ul">
+					<h6>
+						COMPANY
+					</h6>
+
+					<ul class="list-unstyled">
+						<li>Who We Are</li>
+						<li>Blog</li>
+						<li>Careers</li>
+						<li>Report Fraud</li>
+						<li>Contact</li>
+						<li>Investor Relations</li>
+					</ul>
+				</div>
+
+				<div class="col-2 col-sm-2 col-xs-2 col-md-2 col-lg-2 cities-ul">
+					<h6>
+						FOR FOODIES
+					</h6>
+
+					<ul class="list-unstyled">
+						<li>Code of Conduct</li>
+						<li>Community</li>
+						<li>Blogger Help</li>
+						<li>Mobile Apps</li>
+					</ul>
+				</div>
+
+
+				<div class="col-2 col-sm-2 col-xs-2 col-md-2 col-lg-2 cities-ul">
+					<h6>FOR RESTAURANTS</h6>
+					<ul class="list-unstyled"><li>Add restaurant</li></ul>
+					<h6>FOR ENTERPRISES</h6>
+					<ul class="list-unstyled"><li>Zomato for Work</li></ul>
+				</div>
+
+				<div class="col-3 col-sm-3 col-xs-3 col-md-3 col-lg-3 cities-ul">
+					<h6>FOR YOU</h6>
+				
+					<ul class="list-unstyled">
+						<li>Privacy</li>
+					</ul>
+					<ul class="list-unstyled">
+						<li>Terms</li>
+					</ul>
+					<ul class="list-unstyled">
+						<li>Security</li>
+					</ul>
+					<ul class="list-unstyled">
+						<li>Sitemap</li>
+					</ul>
+				</div>
+
+				<div class="col-3 col-sm-3 col-xs-3 col-md-3 col-lg-3 cities-ul">
+					<h6>SOCIAL LINKS</h6>
+					<i class="mt-2 ms-2 fa-2x fa fa-facebook"></i>
+					<i class="mt-2 ms-2 fa-2x fa fa-twitter"></i>
+					<i class="mt-2 ms-2 fa-2x fa fa-instagram"></i>
+					<br>
+					<img style="width: 50%;" class="mt-3" src="images/apple_footer.webp">
+					<img style="width: 50%;" class="mt-3" src="images/play_footer.webp" >
+				</div>
+			</div>
+			<hr>
+			<div class="footer-copyright text-center py-3">
+				<p class="float-start">
+					By continuing past this page, you agree to our Terms of
+					Service,
+					Cookie Policy, Privacy Policy and Content Policies. All
+					trademarks are properties of their respective owners. 2008-2021 © Zomato™ Ltd. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
